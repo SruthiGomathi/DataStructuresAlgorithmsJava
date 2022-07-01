@@ -1,8 +1,14 @@
+/*Sorting Algorithms - Selection Sort
+
+Selection sort is a simple sorting algorithm. 
+This sorting algorithm is an in-place comparison-based algorithm in which the list is divided into two parts, the sorted part at the left end and the unsorted part at the right end. 
+Initially, the sorted part is empty and the unsorted part is the entire list. */
+
 package DataStructureProblems;
 
 import java.util.Scanner;
 
-public class selectionSorting {
+public class SelectionSort {
 	static int[] selectionSort(int[] sortedArray) {
 		for(int i=0;i<sortedArray.length-1;i++) {
 			int minimum = sortedArray[i];
